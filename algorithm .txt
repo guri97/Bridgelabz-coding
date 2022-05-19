@@ -1,0 +1,34 @@
+#Given an array which may contain duplicates,print all elements and their frequencies.
+ALGORITHM-1:-
+step-1: create a variables for initialisation
+        Expected output: ten=0
+                         twenty=0
+                         five=0
+Step-2: create an array in which contain duplicate elements 
+        Expected output-( 10 20 20 10 10 20 5 20)
+Step-3: count the duplicate elements and store that elements                  in variables by using for loop.
+        Expected output: ten : 3
+                         twenty : 4
+                         five : 1                
+Step-4: print the results
+        Expected output: 10:3
+                         20:4
+                          5:1
+#ARITHMETIC COMPUTATION & SORTING 
+ALGORITHM-2:-
+Step-1: Read the three inputs like a,b,c
+        Expected output: a=1
+                         b=2
+                         c=3
+Step-2: compute a+b*c
+        Expected output:1+2*3=7
+Step-3: compute a*b+c
+        Expected output:1*2+3=5
+Step-4: compute c+a/b
+        Expected output:3+1/2=3.5
+Step-5: compute a%b+c
+       Expected output:1%2+3=4
+Step-6: Store the results in a dictionary for every computation
+Step-7: Read the values from the dictionary into the array
+Step-8: Sort the results to show the computation result in the                Descending order
+Step-9: Sort the results to show the computation result in the                ascending order
