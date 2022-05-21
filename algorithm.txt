@@ -1,0 +1,6 @@
+Step 1:- Created a folder stage1-review
+Step 2:- now in nano day4.sh
+(a):- created x.java, y.py, x.js, algorithm.sh files
+(b):- created x, y, z folders with java, py, js subfolders respectively
+(c):- now moved x.java, y.py, x.js to subfolders java, py, js respectively
+Step 3:- compiled day4.sh
