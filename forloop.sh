@@ -1,4 +1,11 @@
-for (( i=0; i<=10; i++))
+for i in `ls *.java`
 do
-   echo "$i"
+  fileName = `echo $i | awk -F. '{print $1}'`
+  if [ -d $fileName ]
+    then
+      rm -rf $fileName
+  fi
+  mkdir fileName
+  cp $i fileName
+
 done
